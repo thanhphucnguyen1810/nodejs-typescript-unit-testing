@@ -13,9 +13,10 @@
     "paths": {
       "~/*": ["src/*"]
     },
+    "types": ["node", "jest"]
   },
   // Cầu nối giữa tsconfig và Node runtime. Để Node hiểu được alias ~/*
   "ts-node": {
     "require": ["tsconfig-paths/register"]
-  },
+  }
 }

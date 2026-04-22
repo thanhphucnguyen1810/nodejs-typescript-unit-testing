@@ -1,6 +1,3 @@
-/** Author: @trungquandev (TrungQuanDev - Một Lập Trình Viên) - https://youtube.com/@trungquandev */
-
-
 // Chuẩn hóa môi trường test (không ảnh hưởng tới các môi trường khác vì chỉ chạy trong tiến trình tesst)
 process.env.NODE_ENV = 'test'
 
